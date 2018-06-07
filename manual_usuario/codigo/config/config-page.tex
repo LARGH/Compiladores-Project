@@ -1,0 +1,97 @@
+\documentclass[oneside,12pt]{article}
+
+%Bibliotecas
+\usepackage[spanish, mexico]{babel}                 %Documento en español
+\usepackage[utf8]{inputenc}                         %Codificación en utf8
+%\usepackage[sfdefault]{ClearSans}                  %Fuente sin serifa
+\usepackage[letterpaper, headheight=1.0in,
+            textwidth=6.5in, inner=1.0in,
+			outer=1.0in, bottom=1.0in]
+            {geometry}                              %Margenes del documento
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{graphicx}                               %Manejo de imágenes
+\usepackage{float}                                  %Portada
+\usepackage{fancyhdr}                               %Encabezado y pie de página
+\usepackage{xcolor}                                 %Gestión de colores
+\usepackage[]{hyperref}                             %Opciones de pdf producto
+\usepackage{enumerate}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+%Formato de párrafos
+\setlength{\parindent}{2em}                         %Sangría
+\setlength{\parskip}{0em}                           %Espacio entre párrafos
+\renewcommand{\baselinestretch}{1.5}
+
+%Créditos
+\title{Practica Número 02}
+\author{Rafael Landa Aguirre}
+
+%Encabezado y Pie
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Práctica 02. Rafael Landa Aguirre.}
+\rfoot{Página \thepage}
+\lfoot{Compiladores}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\lstset{
+  frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+
+\lstdefinestyle{consola}
+{
+	basicstyle=\scriptsize\bf\ttfamily,
+	backgroundcolor=\color{gray75},
+}
+
+\lstset{ language=Java }
+
+%Configuración de pdf
+\hypersetup{
+    pdftitle={Practica 02 Mostrador de 
+    	figuras en Java AWT y YACC},
+    pdfauthor={Rafael Landa Aguirre},
+    pdfsubject={Practica 02 - Compiladores 
+    	- Mostrador de figuras en Java AWT y YACC},
+    bookmarksnumbered=false,
+    bookmarksopen=true,
+    bookmarksopenlevel=3,
+    pdfstartview=Fit,
+    pdfpagemode=UseOutlines,
+    pdfpagelayout=TwoPageRight,
+    colorlinks,
+    linkcolor={black!255!black},
+    citecolor={black!50!black},
+    urlcolor={black!80!black}
+}
+
+%Espacios
+\newcommand\tab[1][1cm]{\hspace*{#1}}

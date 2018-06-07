@@ -1,0 +1,294 @@
+%Esta sección tratará acerca del desarrollo de la aplicación 
+\subsection{Gramática del vector}
+\label{gram:vector}
+A continiación se presenta la gramática que describe la estructura del vector cuando el 
+usuario introduzca información desde teclado:
+\begin{itemize}
+	\item instruccion:
+	\begin{itemize}
+		\item[$\rightarrow$] NUMERO 
+		\item[$\rightarrow$] LINE NUMERO NUMERO NUMERO NUMERO
+		\item[$\rightarrow$] CIRCLE NUMERO NUMERO NUMERO
+		\item[$\rightarrow$] RECTANGLE NUMERO NUMERO NUMERO NUMERO 
+		\item[$\rightarrow$] IMAGE NUMERO NUMERO
+		\item[$\rightarrow$] COLOR NUMERO
+				
+	\end{itemize}
+\end{itemize}
+
+\subsection{Símbolos terminales usados en YACC}
+Para poder describir la estructura de la gramática y traducirla a lenguaje real en
+caracteres, tenenmos la siguiente información en el archivo \texttt{$vector.cal.y$}:
+
+\begin{lstlisting}
+%token NUMBER LINE CIRCLE RECTANGLE COLOR IMAGE PRINT
+%start list
+\end{lstlisting}
+
+\subsection{Reglas gramaticales en YACC}
+En el código siguiente se muestra las reglas gramaticales mostradas en la
+sección \ref{gram:vector}, entonces, solo traducimos a código para YACC, 
+no cambia mucho, solo hay que poner atención en los caracteres.
+\begin{lstlisting}
+%%
+instr:  NUMBER  { /* constantes */
+    			((Algo)$$.obj).inst = maq.code("constpush");
+	                maq.code(((Algo)$1.obj).simb); 
+		}
+      | LINE NUMBER NUMBER NUMBER NUMBER { 
+      	/* instrccion para dibujar lineas */
+			maq.code("constpush");
+                	maq.code(((Algo)$2.obj).simb); 
+			maq.code("constpush");
+                	maq.code(((Algo)$3.obj).simb); 
+			maq.code("constpush");
+                	maq.code(((Algo)$4.obj).simb); 
+			maq.code("constpush");
+                	maq.code(((Algo)$5.obj).simb); 
+			maq.code("line");
+		}
+      | CIRCLE NUMBER NUMBER NUMBER { 
+      	/* instrccion para dibujar circulos */
+			maq.code("constpush");
+                	maq.code(((Algo)$2.obj).simb);
+			maq.code("constpush");
+                	maq.code(((Algo)$3.obj).simb);
+			maq.code("constpush");
+                	maq.code(((Algo)$4.obj).simb);
+			maq.code("circle");
+		}
+      | RECTANGLE NUMBER NUMBER NUMBER NUMBER { 
+	   /* instrccion para dibujar rectangulos */
+			maq.code("constpush");
+                	maq.code(((Algo)$2.obj).simb); 
+			maq.code("constpush");
+                	maq.code(((Algo)$3.obj).simb); 
+			maq.code("constpush");
+                	maq.code(((Algo)$4.obj).simb); 
+			maq.code("constpush");
+                	maq.code(((Algo)$5.obj).simb); 
+			maq.code("rectangulo");
+		}
+      | IMAGE NUMBER NUMBER { 
+      	/* instrccion para colocar imagenes */
+			Simbolo simbolo = new Simbolo();
+			simbolo.setDibujable(new Imagen(
+				cargarImagen("dalmata.jpg"),
+				(int)((Algo)$2.obj).simb.val, 
+				(int)((Algo)$3.obj).simb.val, f));
+			maq.code("objectpush");
+			maq.code(simbolo);
+			maq.code("drawImage");
+		}
+      | COLOR NUMBER { 
+      	/* instrccion para colorear contorno de las 
+      	  figuras previas */
+			maq.code("constpush");
+	                maq.code(((Algo)$2.obj).simb); 
+			maq.code("color");
+		}
+      ;
+%%
+\end{lstlisting}
+
+\subsection{Analizador léxico en YACC}
+El código siguiente se muestra cómo se analiza caractér por caractér 
+cuando el usuario introduce información desde teclado. Primero, para poder
+ejecutar la función \texttt{yylex()}, se tiene que haber invocado la función
+ \texttt{yyparse()}.
+\begin{lstlisting}
+int yylex() {
+	String s; //Cadena del usuario
+	int tok;
+	Double d;
+	Simbolo simbo; //Cimbolos gramaticales
+	if (!st.hasMoreTokens()) //Si no existen mas tokens
+	      if (!newline) {
+        	 newline = true; 
+		 return ';';  //retornar el token
+	      }
+	else
+	      return 0;
+	s = st.nextToken();
+	try { //Agregar a la tabla de simbolos la constante
+		d = Double.valueOf(s);
+		yylval = new ParserVal(
+			new Algo(tabla.install("", 
+				NUMBER, d.doubleValue()),0) 
+		);
+		tok = NUMBER; //retornar el lexema
+	} catch (Exception e) {
+	    /*Agregar a la tabla de simbolos el token
+		LINE, CIRCLE, RECTANGLE, IMAGE, COLOR*/
+		if (Character.isLetter(s.charAt(0))) {
+			if((simbo = tabla.lookup(s)) == null)
+        			yylval = new ParserVal(new Algo(simbo, 0));
+		      	tok = simbo.tipo;
+		} else {
+			tok = s.charAt(0);
+		}
+	}
+	return tok; // retornar el token detectado
+}
+\end{lstlisting}
+
+\subsection{Almacenamiento simbolos gramaticales}
+Para el almacenamiento de símbolos gramaticales se tiene planeada la 
+elaboración de un objeto llamado Simbolo que permite definir una 
+instrucción, el nombre, de que tipo es, la dirección de la primera
+instrucción a la función que apunta. Además, la función a la que apunta 
+deberá ser polifórmica de tipo Dibujable.
+
+\begin{lstlisting}
+class Simbolo {
+	String nombre; //nombre del simbolo o variable
+	short tipo;	// tipo de token
+	double val; //valor en caso de ser constante
+	Dibujable dibujable; // Objeto polimorfico. lineas, circulo, etc.
+	String metodo; // Nombre del metodo a ejecutar
+	int defn; // 
+	Simbolo sig; //Apuntador al siguiente elemento de la lista
+	Simbolo() { }
+	Simbolo(String s, short t, double d) {
+		nombre = s;
+		tipo = t;
+		val = d;
+	}
+    public Simbolo obtenSig() {
+		return sig;
+	}
+    public void ponSig(Simbolo s) {
+		sig = s;
+	}
+    public String obtenNombre() {
+		return nombre;
+	}
+	public void setDibujable(Dibujable dibujable) {
+		this.dibujable = dibujable;
+	}
+	public Dibujable getDibujable() {
+		return dibujable;
+	}
+}
+\end{lstlisting}
+
+Para organizar la tabla de símbolos se tiene una lista simplemente
+enlazada de objetos de tipo Simbolo.
+
+\begin{lstlisting}
+public class Tabla {
+	Simbolo listaSimbolo;
+	Tabla() {
+		listaSimbolo = null;
+	}
+	Simbolo install(String s, short t, double d) {
+		Simbolo simb = new Simbolo(s, t, d);
+		simb.ponSig(listaSimbolo);
+		listaSimbolo = simb;
+		return simb;
+	}
+	Simbolo lookup(String s){
+		for(Simbolo sp = listaSimbolo; 
+		    sp != null; sp = sp.obtenSig())
+			if((sp.obtenNombre()).equals(s))
+				return sp;
+		return null;
+	}
+}
+\end{lstlisting}
+
+\subsection{Implementación de operaciones vectoriales}
+Se agregaron funciones para cada llamada a función tales como:
+\begin{itemize}
+\item \texttt{color()}.
+\begin{lstlisting}
+void color() {
+	//Necesario para colorear contornos con AWT
+   	Color colors[] = { Color.red, Color.green, Color.blue };
+  	double d1 = ((Double)pila.pop()).doubleValue();
+  	if (g != null) 
+		g.setColor(colors[(int) d1]);
+	return;
+}
+\end{lstlisting}
+
+
+\item \texttt{line()}.
+\begin{lstlisting}
+void line() {
+	//Necesario para insertar lineas con AWT
+	double y_2 = ((Double)pila.pop()).doubleValue();
+	double x_2 = ((Double)pila.pop()).doubleValue();
+	double y_1 = ((Double)pila.pop()).doubleValue();
+	double x_1 = ((Double)pila.pop()).doubleValue();
+  	if (g != null) {
+       		(new Linea((int) x_1, 
+			   (int) y_1,
+		  	   (int) x_2, 
+		  	   (int) y_2))
+			.dibujar(g);
+	}
+	return;
+}
+\end{lstlisting}
+
+\item \texttt{circle()}.
+\begin{lstlisting}
+void circle() {
+	//Necesario para insertar circulos con AWT
+	double r  = ((Double)pila.pop()).doubleValue();
+	double yc = ((Double)pila.pop()).doubleValue();
+	double xc = ((Double)pila.pop()).doubleValue();
+	Circulo circulo = new Circulo((int) xc, (int) yc, (int) r);
+	circulo.transladar((-1)*((int) r), (-1)*((int) r));
+  	if (g != null) {
+       		circulo.dibujar(g);
+	}
+	return;
+}
+\end{lstlisting}
+
+\item \texttt{drawImage()}.
+\begin{lstlisting}
+void drawImage() {
+	//Necesario para insertar imagenes con AWT
+	Simbolo simbolo = (Simbolo)pila.pop();
+	Dibujable dibujable = simbolo.getDibujable();
+	if ((g != null) && (dibujable != null))
+		dibujable.dibujar(g);
+	return;
+}
+\end{lstlisting}
+
+\item \texttt{rectangulo()}.
+\begin{lstlisting}
+void rectangulo() {
+	//Necesario para insertar rectangulos con AWT
+	double y_2 = ((Double)pila.pop()).doubleValue();
+	double x_2 = ((Double)pila.pop()).doubleValue();
+	double y_1 = ((Double)pila.pop()).doubleValue();
+	double x_1 = ((Double)pila.pop()).doubleValue();
+  	if (g != null) {
+     	(new Rectangulo((int) x_1, 
+			   	(int) y_1,
+		  	   	(int) x_2, 
+	  		   	(int) y_2))
+		.dibujar(g);
+	}
+	return;
+}
+\end{lstlisting}
+
+\item \texttt{objectpush()}.
+\begin{lstlisting}
+void objectpush() { 
+	//Necesario para insertar objetos en pila
+		Simbolo s;
+	  	s = (Simbolo) prog.elementAt(pc);
+	  	pc = pc + 1;
+	  	pila.push(s);
+		return;
+	}
+\end{lstlisting}
+
+\end{itemize}
