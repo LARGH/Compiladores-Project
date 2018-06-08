@@ -1,0 +1,4 @@
+manual_tecnico/codigo/build/*.*
+manual_usuario/codigo/build/*.*
+manual_tecnico/pdf/*.pdf
+manual_usuario/pdf/*.pdf
