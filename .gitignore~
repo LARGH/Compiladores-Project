@@ -9,4 +9,3 @@
 *.log
 *.pdfsync
 *.pdf
-build/*.*
