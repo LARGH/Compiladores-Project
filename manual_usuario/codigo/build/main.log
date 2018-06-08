@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.12.11)  22 APR 2018 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.12.11)  8 JUN 2018 01:11
 entering extended mode
 **./main.tex
 (main.tex
@@ -710,13 +710,13 @@ LaTeX Info: Redefining \] on input line 2740.
 sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 94.
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 92.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 94.
-Package hyperref Info: Option `colorlinks' set `true' on input line 94.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 92.
+Package hyperref Info: Option `colorlinks' set `true' on input line 92.
 )
-("C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Reportes\Reporte - 2\c
-odigo\build\main.aux"
+(C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Compiladores-Project\ma
+nual_usuario\codigo\build\main.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 )
@@ -795,10 +795,10 @@ LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
 
-("C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Reportes\Reporte - 2\c
-odigo\build\main.out")
-("C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Reportes\Reporte - 2\c
-odigo\build\main.out")
+(C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Compiladores-Project\ma
+nual_usuario\codigo\build\main.out)
+(C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Compiladores-Project\ma
+nual_usuario\codigo\build\main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -836,104 +836,72 @@ G,.JBIG2,.JB2,.eps]
 \c@lstlisting=\count131
  (screens/S-TitlePage.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
 ) [1
 
-{C:/Users/rafal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (screens/S-
-Introduction.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--12
-
- []
-
-(screens/S-BasicConcepts.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--12
-
- []
-
+{C:/Users/rafal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Compiladores-Project\ma
+nual_usuario\codigo\build\main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.20 \end{itemize}
-                   [1]
-<images/img_estr_stack.png, id=69, 211.54031pt x 237.88875pt>
-File: images/img_estr_stack.png Graphic file (type png)
-
-<use images/img_estr_stack.png>
-Package pdftex.def Info: images/img_estr_stack.png used on input line 32.
-(pdftex.def)             Requested size: 190.3845pt x 214.09789pt.
-) (screens/S-Development.tex [2pdfTeX warning (ext4): destination with the same
- identifier (name{figure.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.9 		\item[$\rightarrow$]
-                           NUMERO <./images/img_estr_stack.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Users\rafal\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 ("C:\Users\rafal\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 21.
-("C:\Users\rafal\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-[3] [4] [5] [6] [7] [8] [9] [10]) [11] (screens/S-Results.tex
-<images/img_ej_figs_awt.png, id=338, 507.39563pt x 306.39468pt>
-File: images/img_ej_figs_awt.png Graphic file (type png)
+))
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
-<use images/img_ej_figs_awt.png>
-Package pdftex.def Info: images/img_ej_figs_awt.png used on input line 33.
-(pdftex.def)             Requested size: 456.65186pt x 275.75267pt.
- [12]) [13pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.2}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 	\newpage
+               [1] (screens/S-Introduction.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.20         \newpage
-                      <./images/img_ej_figs_awt.png>]
-(screens/S-Conclusions.tex) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+ []
 
-("C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Reportes\Reporte - 2\c
-odigo\build\main.aux"
+[2] (screens/S-RequisitosAplicativo.tex) [3] (screens/S-EjecucionAplicacion.tex
+) [4] (screens/S-ComponentesDelAplicativo.tex) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+
+(C:\Users\rafal\Documents\Documentos\LaTex\Compiladores\Compiladores-Project\ma
+nual_usuario\codigo\build\main.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4C087383642EA7DBC68478B272FD4A05;956.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
+(rerunfilecheck)             Checksum: EA6DD7100C0132A4E7AFC1EB66536443;551.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
- 10421 strings out of 493333
- 144719 string characters out of 3130142
- 288384 words of memory out of 3000000
- 13512 multiletter control sequences out of 15000+200000
- 28980 words of font info for 55 fonts, out of 3000000 for 9000
+ 9683 strings out of 493333
+ 136837 string characters out of 3130142
+ 258386 words of memory out of 3000000
+ 13041 multiletter control sequences out of 15000+200000
+ 24546 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,12n,43p,270b,1920s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,11n,43p,270b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/urw/courier/ucrr8a.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/rafal/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "C:/Users/rafal/Documents/Documentos/LaTex/Compiladores/Repor
-tes/Reporte - 2/codigo/build/main.pdf" (15 pages, 153635 bytes).
+}<C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
+.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
+mr8a.pfb>
+Output written on C:/Users/rafal/Documents/Documentos/LaTex/Compiladores/Compil
+adores-Project/manual_usuario/codigo/build/main.pdf (6 pages, 40617 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 272 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
