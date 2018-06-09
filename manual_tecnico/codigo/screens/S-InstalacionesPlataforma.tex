@@ -1,5 +1,41 @@
 \subsection{Java}  
 %% Instalacion de Java
+El primer paso es ejecutar el archivo descargado, recuerde que no importa la versión del JDK que haya descargado, puede ser una versión anterior o posterior (Recomendamos la versión 8) .\\
+	imagen 1\\
+Al ejecutar este archivo nos desplegará la siguiente ventana de bienvenidos al instalador de actualización del JDK.\\
+	imagen 2\\
+A los pocos segundos nos mostrara la imagen de bienvenida al instalador de JDK, el procedimiento es verificar si existe en su equipo de cómputo una versión anterior a instalar, si existe dicha versión de JDK solo actualizara su JDK de lo contrario será una instalación desde cero, en la que deberemos dar clic en aceptar para que inicie el proceso de instalación.\\
+	imagen 3\\
+Una vez leído el archivo nos desplegará la ventana inicial al instalar el JDK, donde debemos elegir las opciones que queremos instalar en nuestro pc, regularmente se instala todo pero usted puede elegir que instalar (JVM, Código, Ejemplos).\\
+	imagen 4\\
+Al dar clic en siguiente nos muestra una pantalla del progreso de descarga según a instalar Productos de Java que es la primer ventana del menú, lo cual desplegará la siguiente ventana.\\
+	imagen 5\\
+Posteriormente comenzará a instalarse la máquina virtual de java que habíamos descargado en los pasos anteriores, este procedimiento puede tardar dependiendo de los recursos de nuestro equipo de cómputo.\\
+	imagen 6\\
+En el siguiente paso nos preguntará si deseamos instalar el JRE de la máquina virtual, obviamente decimos que sí.\\
+	imagen 7\\
+Comenzará a instalar los componentes del JDK, esto puede tardar varios minutos así que no desesperen y vayan a preparase una taza de café.\\
+	imagen 8\\
+Hasta este momento tenemos instalado nuestro JDK, pero esto no es suficiente si queremos que nuestro equipo de cómputo pueda realizar sistemas informáticos, por esa razón tenemos que decirle a nuestro pc que pueda generar archivos .class de la siguiente manera.
+Primero damos clic derecho en equipo y elegimos propiedades, como en la siguiente imagen:\\
+	imagen 9\\
+Nos mostrara un cuadro de dialogo en el cual del lado izquierdo contiene un menú donde nosotros seleccionaremos Configuración Avanzada del Sistema.\\
+	imagen 10\\
+Nuevamente nos abrirá un cuadro de dialogo donde seleccionamos la pestaña Opciones Avanzadas y elegimos el botón variables de entorno.\\
+	imagen 11\\
+En el siguiente cuadro de diálogo tenemos que tener mucho cuidado ya que cada vez que iniciamos nuestro pc estas variables de entorno son las que se encargan de cargar nuestro sistema operativo así es que si llegáramos a borrar una variable de esta sección podría no cargar la próxima vez nuestro sistema operativo.
+Primero debemos de ubicar la variable Path, la seleccionamos y damos clic en el botón Editar.\\
+	imagen 12\\
+Debemos de copiar la ruta donde se instaló nuestro JDK para poder agregarla a las variables de entorno así que vamos a copiar la ruta.\\
+	imagen 13\\
+En las variables de entorno vamos a agregar un punto y coma ";" pegamos la ruta que copiamos en el paso anterior y agregamos nuevamente punto y coma ";" como nota importante no debemos de borrar ninguna variable de entorno por lo explicado anteriormente.\\
+	imagen 14\\
+Aceptamos todas las ventanas que abrimos anteriormente.\\
+Una vez realizado los pasos descritos anteriormente es hora de verificar que los hayamos realizado correctamente.
+Abrimos una ventana de consola para ello vamos a inicio --> accesorios --> símbolo de sistema y escribimos el comando java y damos enter. Nos debe de mostrar muchas líneas describiendo el comando java como se muestra a continuación. Si nos arrojara un error repetir los pasos anteriores hasta lograr el objetivo.\\
+	imagen 15\\
+Ahora escribiremos el comando javac y de la misma manera que el comando anterior nos debe de describir este comando.\\
+	imagen 16\\
 
 \subsection{Eclipse}
 %% Instalacion de eclipse
