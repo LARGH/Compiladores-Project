@@ -1,11 +1,14 @@
 \BOOKMARK [1][]{section.1}{Introducci\363n}{}% 1
 \BOOKMARK [1][]{section.2}{Requerimientos t\351cnicos}{}% 2
 \BOOKMARK [2][]{subsection.2.1}{Java}{section.2}% 3
-\BOOKMARK [2][]{subsection.2.2}{Maven}{section.2}% 4
-\BOOKMARK [1][]{section.3}{Instalaciones de plataforma}{}% 5
-\BOOKMARK [2][]{subsection.3.1}{Java}{section.3}% 6
-\BOOKMARK [2][]{subsection.3.2}{Eclipse}{section.3}% 7
-\BOOKMARK [1][]{section.4}{Ejecuci\363n del aplicativo}{}% 8
-\BOOKMARK [1][]{section.5}{Casos de uso}{}% 9
-\BOOKMARK [1][]{section.6}{Modelo de informaci\363n}{}% 10
-\BOOKMARK [1][]{section.7}{Prototipos de pantallas del aplicativo}{}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Java Development Kit \(JDK\)}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Java Runtime Edition \(JRE\)}{subsection.2.1}% 5
+\BOOKMARK [2][]{subsection.2.2}{Herramientas de desarrollo}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Maven}{subsection.2.2}% 7
+\BOOKMARK [1][]{section.3}{Instalaciones de plataforma}{}% 8
+\BOOKMARK [2][]{subsection.3.1}{Instalaci\363n de Java}{section.3}% 9
+\BOOKMARK [2][]{subsection.3.2}{Eclipse}{section.3}% 10
+\BOOKMARK [1][]{section.4}{Ejecuci\363n del aplicativo}{}% 11
+\BOOKMARK [1][]{section.5}{Casos de uso}{}% 12
+\BOOKMARK [1][]{section.6}{Modelo de informaci\363n}{}% 13
+\BOOKMARK [1][]{section.7}{Prototipos de pantallas del aplicativo}{}% 14

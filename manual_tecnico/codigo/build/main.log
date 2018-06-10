@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.12.11)  8 JUN 2018 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.12.11)  10 JUN 2018 17:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -865,15 +865,345 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.11 	\newpage
-               [1] (screens/S-Introduction.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--15
+               [1] (screens/S-Introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--11
 
  []
 
-[2] (screens/S-RequerimientosTecnicos.tex) [3]
-(screens/S-InstalacionesPlataforma.tex) [4] (screens/S-EjecucionAplicativo.tex)
-[5] (screens/S-CasosDeUso.tex) [6] (screens/S-ModeloDeInformacion.tex) [7]
-(screens/S-PrototiposPantallasAplicativo.tex) [8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+
+ []
+
+) [2] (screens/S-RequerimientosTecnicos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 39--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+
+ []
+
+) [4] (screens/S-InstalacionesPlataforma.tex
+<images/instalaciones/java/img_java_1.png, id=96, 278.2395pt x 169.8345pt>
+File: images/instalaciones/java/img_java_1.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_1.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_1.png used on input
+ line 8.
+(pdftex.def)             Requested size: 111.29382pt x 67.93259pt.
+
+<images/instalaciones/java/img_java_2.png, id=98, 373.395pt x 282.30469pt>
+File: images/instalaciones/java/img_java_2.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_2.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_2.png used on input
+ line 18.
+(pdftex.def)             Requested size: 149.35535pt x 112.91986pt.
+
+<images/instalaciones/java/img_java_3.png, id=99, 371.88937pt x 283.0575pt>
+File: images/instalaciones/java/img_java_3.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_3.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_3.png used on input
+ line 32.
+(pdftex.def)             Requested size: 148.75311pt x 113.22098pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.36 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.36 
+      <./images/instalaciones/java/img_java_1.png> <./images/instalaciones/java
+/img_java_2.png>]
+<images/instalaciones/java/img_java_4.png, id=109, 374.14781pt x 283.0575pt>
+File: images/instalaciones/java/img_java_4.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_4.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_4.png used on input
+ line 44.
+(pdftex.def)             Requested size: 149.65646pt x 113.22098pt.
+
+<images/instalaciones/java/img_java_5.png, id=110, 380.17032pt x 284.56313pt>
+File: images/instalaciones/java/img_java_5.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_5.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_5.png used on input
+ line 55.
+(pdftex.def)             Requested size: 152.06543pt x 113.82323pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.59 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.59 
+      <./images/instalaciones/java/img_java_3.png> <./images/instalaciones/java
+/img_java_4.png>]
+<images/instalaciones/java/img_java_6.png, id=120, 377.91188pt x 286.82156pt>
+File: images/instalaciones/java/img_java_6.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_6.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_6.png used on input
+ line 67.
+(pdftex.def)             Requested size: 151.16206pt x 114.72658pt.
+
+<images/instalaciones/java/img_java_7.png, id=121, 377.91188pt x 288.3272pt>
+File: images/instalaciones/java/img_java_7.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_7.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_7.png used on input
+ line 77.
+(pdftex.def)             Requested size: 151.16206pt x 115.32883pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 
+      <./images/instalaciones/java/img_java_5.png> <./images/instalaciones/java
+/img_java_6.png>]
+<images/instalaciones/java/img_java_8.png, id=130, 376.40625pt x 289.83281pt>
+File: images/instalaciones/java/img_java_8.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_8.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_8.png used on input
+ line 87.
+(pdftex.def)             Requested size: 150.55983pt x 115.93106pt.
+
+<images/instalaciones/java/img_java_9.png, id=131, 261.1356pt x 196.5744pt>
+File: images/instalaciones/java/img_java_9.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_9.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_9.png used on input
+ line 100.
+(pdftex.def)             Requested size: 104.45238pt x 78.62836pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.104 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.104 
+       <./images/instalaciones/java/img_java_7.png> <./images/instalaciones/jav
+a/img_java_8.png>]
+<images/instalaciones/java/img_java_10.png, id=140, 267.26263pt x 248.17245pt>
+File: images/instalaciones/java/img_java_10.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_10.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_10.png used on inpu
+t line 111.
+(pdftex.def)             Requested size: 106.90315pt x 99.26721pt.
+
+<images/instalaciones/java/img_java_11.png, id=141, 306.39468pt x 354.57469pt>
+File: images/instalaciones/java/img_java_11.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_11.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_11.png used on inpu
+t line 121.
+(pdftex.def)             Requested size: 122.5557pt x 141.82736pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.132 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.132 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.132 
+       <./images/instalaciones/java/img_java_9.png> <./images/instalaciones/jav
+a/img_java_10.png> <./images/instalaciones/java/img_java_11.png>]
+<images/instalaciones/java/img_java_12.png, id=152, 301.125pt x 360.59718pt>
+File: images/instalaciones/java/img_java_12.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_12.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_12.png used on inpu
+t line 135.
+(pdftex.def)             Requested size: 120.44786pt x 144.23631pt.
+
+<images/instalaciones/java/img_java_13.png, id=153, 355.3275pt x 45.16875pt>
+File: images/instalaciones/java/img_java_13.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_13.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_13.png used on inpu
+t line 146.
+(pdftex.def)             Requested size: 142.12846pt x 18.06717pt.
+
+<images/instalaciones/java/img_java_14.png, id=154, 346.896pt x 214.2593pt>
+File: images/instalaciones/java/img_java_14.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_14.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_14.png used on inpu
+t line 158.
+(pdftex.def)             Requested size: 138.75594pt x 85.7022pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.163 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.163 
+       <./images/instalaciones/java/img_java_12.png> <./images/instalaciones/ja
+va/img_java_13.png>]
+<images/instalaciones/java/img_java_15.png, id=164, 412.43741pt x 204.97267pt>
+File: images/instalaciones/java/img_java_15.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_15.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_15.png used on inpu
+t line 175.
+(pdftex.def)             Requested size: 164.97203pt x 81.98761pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+
+ []
+
+
+<images/instalaciones/java/img_java_16.png, id=165, 413.79372pt x 202.73973pt>
+File: images/instalaciones/java/img_java_16.png Graphic file (type png)
+
+<use images/instalaciones/java/img_java_16.png>
+Package pdftex.def Info: images/instalaciones/java/img_java_16.png used on inpu
+t line 185.
+(pdftex.def)             Requested size: 165.51454pt x 81.09445pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.189 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.189 
+       <./images/instalaciones/java/img_java_14.png> <./images/instalaciones/ja
+va/img_java_15.png>]
+<images/instalaciones/eclipse/img_eclipse_1.jpg, id=174, 548.0475pt x 413.29407
+pt>
+File: images/instalaciones/eclipse/img_eclipse_1.jpg Graphic file (type jpg)
+ <use images/instalaciones/eclipse/img_eclipse_1.jpg>
+Package pdftex.def Info: images/instalaciones/eclipse/img_eclipse_1.jpg used on
+ input line 196.
+(pdftex.def)             Requested size: 219.2151pt x 165.31468pt.
+
+<images/instalaciones/eclipse/img_eclipse_2.jpg, id=175, 548.0475pt x 413.29407
+pt>
+File: images/instalaciones/eclipse/img_eclipse_2.jpg Graphic file (type jpg)
+ <use images/instalaciones/eclipse/img_eclipse_2.jpg>
+Package pdftex.def Info: images/instalaciones/eclipse/img_eclipse_2.jpg used on
+ input line 208.
+(pdftex.def)             Requested size: 219.2151pt x 165.31468pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.212 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.212 
+       <./images/instalaciones/java/img_java_16.png> <./images/instalaciones/ec
+lipse/img_eclipse_1.jpg>]
+<images/instalaciones/eclipse/img_eclipse_3.jpg, id=185, 548.0475pt x 413.29407
+pt>
+File: images/instalaciones/eclipse/img_eclipse_3.jpg Graphic file (type jpg)
+ <use images/instalaciones/eclipse/img_eclipse_3.jpg>
+Package pdftex.def Info: images/instalaciones/eclipse/img_eclipse_3.jpg used on
+ input line 224.
+(pdftex.def)             Requested size: 219.2151pt x 165.31468pt.
+
+<images/instalaciones/eclipse/img_eclipse_4.jpg, id=186, 548.0475pt x 411.03563
+pt>
+File: images/instalaciones/eclipse/img_eclipse_4.jpg Graphic file (type jpg)
+ <use images/instalaciones/eclipse/img_eclipse_4.jpg>
+Package pdftex.def Info: images/instalaciones/eclipse/img_eclipse_4.jpg used on
+ input line 231.
+(pdftex.def)             Requested size: 219.2151pt x 164.41133pt.
+) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.23 		\newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.23 		\newpage
+                <./images/instalaciones/eclipse/img_eclipse_2.jpg> <./images/in
+stalaciones/eclipse/img_eclipse_3.jpg>] [14pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.20}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.23 		\newpage
+                <./images/instalaciones/eclipse/img_eclipse_4.jpg>]
+(screens/S-EjecucionAplicativo.tex) [15] (screens/S-CasosDeUso.tex) [16]
+(screens/S-ModeloDeInformacion.tex) [17]
+(screens/S-PrototiposPantallasAplicativo.tex) [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
 
@@ -885,25 +1215,28 @@ LaTeX Info: Redefining \% on input line 20.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1ABFCA6FE78CE5EA993389CBA61BD330;632.
+(rerunfilecheck)             Checksum: 5D98B48FEB2998F1DBFC1F1BB605113F;915.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 9701 strings out of 493333
- 137182 string characters out of 3130142
- 259373 words of memory out of 3000000
- 13044 multiletter control sequences out of 15000+200000
- 24546 words of font info for 44 fonts, out of 3000000 for 9000
+ 9855 strings out of 493333
+ 141770 string characters out of 3130142
+ 260386 words of memory out of 3000000
+ 13139 multiletter control sequences out of 15000+200000
+ 27394 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,11n,43p,270b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
-.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
-mr8a.pfb>
+}<C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/urw/times/utmb8a.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb><C:/Users/rafal/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users/rafal/Documents/Documentos/LaTex/Compiladores/Compil
-adores-Project/manual_tecnico/codigo/build/main.pdf (9 pages, 45257 bytes).
+adores-Project/manual_tecnico/codigo/build/main.pdf (19 pages, 1233390 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
