@@ -10,6 +10,9 @@
 \contentsline {subsection}{\numberline {3.1}Instalaci\IeC {\'o}n de Java}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Eclipse}{12}{subsection.3.2}
 \contentsline {section}{\numberline {4}Ejecuci\IeC {\'o}n del aplicativo}{15}{section.4}
-\contentsline {section}{\numberline {5}Casos de uso}{16}{section.5}
-\contentsline {section}{\numberline {6}Modelo de informaci\IeC {\'o}n}{17}{section.6}
-\contentsline {section}{\numberline {7}Prototipos de pantallas del aplicativo}{18}{section.7}
+\contentsline {subsection}{\numberline {4.1}Ejecuci\IeC {\'o}n en entornos de desarrollo}{15}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Eclipse}{15}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Ejecuci\IeC {\'o}n via terminal}{17}{subsubsection.4.1.2}
+\contentsline {section}{\numberline {5}Casos de uso}{18}{section.5}
+\contentsline {section}{\numberline {6}Modelo de informaci\IeC {\'o}n}{19}{section.6}
+\contentsline {section}{\numberline {7}Prototipos de pantallas del aplicativo}{20}{section.7}
