@@ -15,4 +15,4 @@
 \contentsline {subsubsection}{\numberline {4.1.2}Ejecuci\IeC {\'o}n via terminal}{17}{subsubsection.4.1.2}
 \contentsline {section}{\numberline {5}Casos de uso}{18}{section.5}
 \contentsline {section}{\numberline {6}Modelo de informaci\IeC {\'o}n}{19}{section.6}
-\contentsline {section}{\numberline {7}Prototipos de pantallas del aplicativo}{20}{section.7}
+\contentsline {section}{\numberline {7}Prototipo de pantalla del aplicativo}{20}{section.7}
